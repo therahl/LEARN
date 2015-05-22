@@ -1,0 +1,21 @@
+div.highlight span.nx {
+  color: blue;
+}
+div.highlight span.o {
+   color: purple;
+ }
+div.highlight span.p {
+  color: black;
+}
+code .go {
+  color: black;
+}
+code .n {
+  color: black;
+}
+code .no {
+  color: blue;
+}
+code .vi {
+  color: darkblue;
+}

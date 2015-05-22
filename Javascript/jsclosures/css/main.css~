@@ -1,0 +1,81 @@
+.jumbotron {
+  background: #70D23A;
+}
+tr.extra {
+  /*background: #D8DABE;*/
+  border-bottom: 2px solid #e8e8e8;
+}
+tr.extra td {
+  padding-left: 3em;
+}
+div.extra {
+  float: left;
+  width: 40%;
+  margin-left: 5em;
+}
+table td {
+  border-top: none !important;
+}
+tr:not(.extra) td:first-child {
+  font-weight: bold;
+}
+.bottom-align {
+  position: absolute;
+  bottom: 0px;
+}
+body {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #70D23A;
+  padding-top: 1em;
+  padding-bottom: 5em;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.counter {
+  border: 1px solid #000;
+  padding: 5px;
+  margin: 0 auto;
+  height: 75px;
+  width: 200px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.count {
+  font-weight: bold;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
